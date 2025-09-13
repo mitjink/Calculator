@@ -1,7 +1,6 @@
 ﻿using System;
-using System.ComponentModel;
 using System.Globalization;
-using System.Runtime.InteropServices;
+
 
 namespace Program
 {
@@ -61,7 +60,7 @@ namespace Program
                     ProcessingTripleInput(parts[0], parts[1], parts[2]);
                     break;
                 default:
-                    Console.WriteLine("ошибка5 неверный формат ввода");
+                    Console.WriteLine("Ошибка: неверный формат ввода");
                     break;
 
             }
